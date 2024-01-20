@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+    
+}
+
+.container h1 {
+    margin-left: 25px;
+    font-weight: 600;
+    color: #000;
+}
+
+header {
+    padding: 25px 0;
+    background-color: #f4f4f6;
+    
+}
+
+
+nav ul li {
+    display: inline;
+    margin-left: 70px;
+    
+}
+
+nav ul {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+#main div {
+    background-color: #f4f4f6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+
+}
+
+.texto_apresent {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_apresent h2{
+    line-height: 125%;
+
+}
+
+.texto_apresent p {
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.john{
+    height: 870px;
+    width: 850px;
+    display: flex;
+    position: relative;
+    right: 200px;
+    
+}
+
+#main div h2 {
+    position: relative;
+    font-size: 100px;
+    right: 50px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 17.6px;
+
+}
+
+.container-artist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #9999A1;
+    align-items: center;
+    padding: 100px;
+
+    
+}
+
+.card {
+    
+    background-color: #d9d9d9;
+    width: 500px;
+    height: 800px;
+    margin: 20px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.card img {
+    margin-top: 40px;
+    width: 450px;
+    height: 600px;
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);   
+    border-radius: 3px;
+   
+}
+
+.card h1 {
+    position: relative;
+    bottom: 100px;
+    color: #d9d9d9;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card button {
+    display: flex;
+    padding: 14px 65px;
+    border: none;
+    border-radius: 100px;
+    color: #d9d9d9;
+    background-color: #1e1e1e;
+    top: 50px;
+    box-shadow: 6px 7px 4px 2px rgba(0, 0, 0, 0.25);
+    font-size: large;
+    font-weight: 300;
+    line-height: normal;
+    font-style: italic;
+    letter-spacing: 1.65px;
+    cursor: pointer;
+}
+
+.card button:hover {
+        
+    transform: scale(1.1)
+}
+
+
+.body-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f6;
+}
+
+.body-form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    padding: 50px;
+    
+}
+
+.body-form form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+    
+}
+
+.body-form input {
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    box-shadow: 6px 7px 4px 2px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 100%;
+}
+
+.body-form input:focus {
+    border-radius: 12px;
+}
+
+.body-form h2 {
+    font-size: 30px;
+}
+
+.body-form button {
+    margin-top: 30px;
+    border-radius: 100px;
+    padding: 15px;
+    border: none;
+    color: #d9d9d9;
+    background-color: #1e1e1e;
+    box-shadow: 6px 7px 4px 2px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.body-form textarea {
+    border: none;
+    box-shadow: 6px 7px 4px 2px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    resize: none;
+    outline: none;
+
+}
+
+.body-form textarea:focus {
+    border-radius: 12px;
+}
+
+.body-form label {
+    margin-bottom: 5px;
+    
+}
+
+.body-form button:hover {
+    transform: scale(1.1)
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
